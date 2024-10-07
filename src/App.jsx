@@ -38,9 +38,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
 
-        <button style={{color: "white", backgroundColor: "black"}} onClick={this.toggleProfile}>
+        <button style={{color: "white", backgroundColor: "black", cursor: "pointer"}} onClick={this.toggleProfile}>
           {this.state.shows ? "Hide Profile" : "Show Profile"}
         </button>
 
